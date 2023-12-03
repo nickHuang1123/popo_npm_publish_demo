@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const t=require("./utils/withInstall.js"),u=require("./components/SButton.vue.js"),o=require("./components/SInput.vue.js"),e=t.withInstall(u.default),n=t.withInstall(o.default),l=[e,n];exports.SButton=e;exports.SInput=n;exports.default=l;

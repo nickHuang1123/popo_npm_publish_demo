@@ -1,0 +1,34 @@
+{
+  "name": "@nick-huang/popo",
+  "version": "0.0.4",
+  "description": "胡搞亂搞的套件，任意下載後不付任何責任",
+  "license": "MIT",
+  "author": "Nick Huang <nick.huang3211@gmail.com> (https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+  "exports": {
+    ".": {
+      "import": "./dist/es/index.js",
+      "require": "./dist/lib/index.js"
+    },
+    "./style": {
+      "import": "./dist/es/style.css",
+      "require": "./dist/lib/style.css"
+    }
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "src",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "sass": "^1.69.5",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "vite": "^5.0.0"
+  }
+}
