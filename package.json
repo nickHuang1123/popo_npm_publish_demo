@@ -1,6 +1,6 @@
 {
   "name": "@nick-huang/popo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "胡搞亂搞的套件，任意下載後不付任何責任",
   "license": "MIT",
   "author": "Nick Huang <nick.huang3211@gmail.com> (https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
@@ -14,16 +14,26 @@
       "require": "./dist/lib/style.css"
     }
   },
-  "type": "module",
   "files": [
     "dist",
     "src",
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickHuang1123/popo_npm_publish_demo"
+  },
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "vite",
+    "sass"
+  ],
   "scripts": {
     "build": "vite build"
   },
   "dependencies": {
+    "element-plus": "^2.4.3",
     "sass": "^1.69.5",
     "vue": "^3.3.8"
   },
