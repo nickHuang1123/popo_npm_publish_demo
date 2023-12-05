@@ -1,12 +1,9 @@
-import { withInstall as t } from "./utils/withInstall.js";
-import o from "./components/SButton.vue.js";
-import n from "./components/SInput.vue.js";
-const m = t(o), r = t(n), f = [
-  m,
-  r
+import { withInstall as o } from "./utils/withInstall.js";
+import n from "./components/UnKnown.vue.js";
+const t = o(n), r = [
+  t
 ];
 export {
-  m as SButton,
-  r as SInput,
-  f as default
+  t as UnKnown,
+  r as default
 };

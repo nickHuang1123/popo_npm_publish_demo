@@ -8,7 +8,7 @@ export default defineConfig({
   base: './',
   build: {
     target: 'modules',
-    //打包文件夹
+    //打包文件夾
     outDir: 'es',
     //壓縮
     minify: true,

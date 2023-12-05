@@ -1,1 +1,1 @@
-"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("./src/index.js"),n={install:t=>e.default.forEach(u=>t.use(u))};exports.SButton=e.SButton;exports.SInput=e.SInput;exports.default=n;
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("./src/index.js"),o={install:n=>e.default.forEach(t=>n.use(t))};exports.UnKnown=e.UnKnown;exports.default=o;

@@ -1,6 +1,6 @@
 {
   "name": "@nick-huang/popo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "胡搞亂搞的套件，任意下載後不付任何責任",
   "license": "MIT",
   "author": "Nick Huang <nick.huang3211@gmail.com> (https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
@@ -16,7 +16,6 @@
   },
   "files": [
     "dist",
-    "src",
     "index.js"
   ],
   "repository": {
@@ -30,6 +29,7 @@
     "sass"
   ],
   "scripts": {
+    "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {

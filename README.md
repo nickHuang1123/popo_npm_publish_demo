@@ -4,13 +4,24 @@
 
 ## Install
 ```bash
-# 安裝前須先安裝 Element-plus
+# 安裝前須先安裝 Element-plus、Scss
+yarn add element-plus
+yarn add sass
+
+# 安裝本套件
 yarn add @nick-huang/popo
 ```
 
 ## Use
+#### template
 ```javascript
-import { SButton, SInput } from '@nick-huang/popo';
+<template>
+    <un-known />
+</template>
+```
+#### script
+```javascript
+import { UnKnown } from '@nick-huang/popo';
 import '@nick-huang/popo/style';
 ```
 ## License

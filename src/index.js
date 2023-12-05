@@ -1,16 +1,12 @@
 import { withInstall } from './utils/withInstall';
-import button from './components/SButton.vue';
-import input from './components/SInput.vue';
+import unKnown from './components/UnKnown.vue';
 
-const SButton = withInstall(button);
-const SInput = withInstall(input);
+const UnKnown = withInstall(unKnown);
 
 export {
-  SButton,
-  SInput
+  UnKnown
 }
 
 export default [
-  SButton,
-  SInput
+  UnKnown
 ]
